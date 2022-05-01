@@ -30,9 +30,13 @@ Découpage du code en fonctions spécialisés.
 
 Utilisation d'options en ligne de commande et de variables d'environnement.
 
-## Exercice 007 (TODO)
+## Exercice 007
 
 Utilisation d'un template pour générer le fichier .htaccess
+
+Voir aussi:
+- https://github.com/flosch/pongo2
+- https://github.com/Masterminds/sprig
 
 ## Exercice 008 (TODO)
 
@@ -41,6 +45,8 @@ Découpage du code en modules.
 ## Exercice 009 (TODO)
 
 Développement des tests unitaires.
+
+- https://github.com/stretchr/testify
 
 ## Exercice 010 (TODO)
 
@@ -52,7 +58,10 @@ Tests qualités et bonnes pratiques Golang.
 - Génération automatique de la documentation.
 - Automatisation CI/CD et production d'un binaire versionné.
 - Utilisation d'une librairie pour le logging (logrus, zerolog, ...)
+    - https://github.com/hashicorp/terraform/blob/main/internal/logging/logging.go
+    - https://github.com/goharbor/harbor/blob/main/src/lib/log/logger.go
 - Remplacement du module `flag`, par [Cobra](https://github.com/spf13/cobra)
+    - https://github.com/ory/hydra/blob/master/cmd/clients.go
 - Gestion de configuration avancée avec [Viper](https://github.com/spf13/viper)
 - Création d'une API Rest (Gin ?)
 - Création d'une IHM (choix du framework: https://component-party.pages.dev/)
