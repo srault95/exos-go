@@ -1,0 +1,4 @@
+Order Allow,Deny
+{{ range . }}{{.Role}} from {{.Address}}
+{{ end -}}
+Deny from all

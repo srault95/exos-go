@@ -38,9 +38,11 @@ Voir aussi:
 - https://github.com/flosch/pongo2
 - https://github.com/Masterminds/sprig
 
-## Exercice 008 (TODO)
+## Exercice 008
 
-Découpage du code en modules.
+Tests qualités et bonnes pratiques Golang.
+
+- https://golangci-lint.run/
 
 ## Exercice 009 (TODO)
 
@@ -50,10 +52,11 @@ Développement des tests unitaires.
 
 ## Exercice 010 (TODO)
 
-Tests qualités et bonnes pratiques Golang.
+Découpage du code en modules.
 
 ## Idées d'exercices à définir et prioriser
 
+- Appel Rest pour vérifier que sa propre IP publique soit toujours autorisé
 - Gestion des IP V6 et des CIDR
 - Génération automatique de la documentation.
 - Automatisation CI/CD et production d'un binaire versionné.

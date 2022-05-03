@@ -1,0 +1,20 @@
+94c94,98
+< 	template.Execute(f, addr)
+---
+> 	err = template.Execute(f, addr)
+> 	if err != nil {
+> 		fmt.Printf("parse template error : %v", err)
+> 		return err
+> 	}
+99c103
+< func parseOptions() (options Options, err error) {
+---
+> func parseOptions() (options Options) {
+128c132
+< 	return options, nil
+---
+> 	return options
+133c137
+< 	options, err := parseOptions()
+---
+> 	options := parseOptions()
