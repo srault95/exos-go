@@ -1,4 +1,4 @@
-# Génération d'un fichier Apache htaccess - Exercice 006
+# Génération d'un fichier Apache htaccess - Exercice 007
 
 ## Scénario
 
